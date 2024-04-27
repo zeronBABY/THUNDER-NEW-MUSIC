@@ -7,20 +7,20 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("23851387"))
+API_HASH = getenv("3618ba04f66a43dd1606bd9a74266143")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7093497673:AAFxNWmpfPjziplUyvk1HoKhPq5eaW1GLI4")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Thunder_X_Musicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Divine_music_area_bot")
 
 # Get Your repo
 REPO_LINK = getenv("REPO_LINK" , "https://te.legra.ph/file/4b225214f22ad8bbc8a86.mp4")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Thunder_X_Musicbot")
+BOT_NAME = getenv("BOT_NAME" , "@Divine_music_area_bot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -28,14 +28,14 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID",-1002133277192" ))
 
 # Get this value from @BRANDRD_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6848318915))
+OWNER_ID = int(getenv("OWNER_ID",6631416710" ))
 
 ## Fill these ariables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("DIVINE_MUSIC")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -87,7 +87,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/cc59cd1a56386094030ef.jpg"
+    "START_IMG_URL", tg://openmessage?user_id=6631416710&message_id=63"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/cfb70ea22033092b1076d.jpg"
